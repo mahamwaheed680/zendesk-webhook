@@ -3,6 +3,10 @@ import requests
 
 app = Flask(__name__)
 
+@app.route('/')
+def home():
+    return "Webhook Flask app is running!"
+
 # ----------------------------
 # 🔹 Your Zendesk credentials
 ZENDESK_DOMAIN = "https://retouchingacademy.zendesk.com"
@@ -65,6 +69,6 @@ def webhook():
     return jsonify({"fulfillmentText": "Okay, I noted that!"})
 
 
-if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8000)
+# if __name__ == "__main__":
+#     app.run(host='0.0.0.0', port=8000)
 
