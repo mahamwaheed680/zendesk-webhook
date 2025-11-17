@@ -11,7 +11,7 @@ def home():
 # 🔹 Your Zendesk credentials
 ZENDESK_DOMAIN = "https://retouchingacademy.zendesk.com"
 ZENDESK_EMAIL = "syedamjadali415@gmail.com"  # your Zendesk login email
-ZENDESK_TOKEN = "7V34wUewtCNvViQ9vZZMooof77xaleZYgmZHvn0U"
+ZENDESK_TOKEN = "WHcRh987M2oqg8CzyHfnREplsSJM2wcJe1tioybf"
 # ----------------------------
 
 
